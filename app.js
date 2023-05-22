@@ -4,7 +4,7 @@ const tasks = require('./routes/tasks')
 const db = require('./db/connect')
 require('dotenv').config()
 //require('./db/connect')
-const port = 3000
+const port = 8080
 
 // app.get('/home', (req,res) => {
 //     res.send('Task tracker homepage...')
