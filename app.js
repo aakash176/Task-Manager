@@ -16,7 +16,7 @@ app.use('/api/v1/tasks', tasks)
 
 async function start(){
     try{
-        await db(process.env.MONGO_URI)
+        await db("mongodb+srv://john:1234@nodeexpress.nuanlcd.mongodb.net/TaskManager?retryWrites=true&w=majority")
         app.listen(port, () =>{console.log(`app is listening to port ${port}`)})
     } catch(err) {console.log(err)}
 }
