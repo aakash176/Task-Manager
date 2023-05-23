@@ -71,7 +71,8 @@ html {
 }
 
 body {
-  background: rgb(150, 90, 150);
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,61,75,1) 35%, rgba(0,212,255,1) 100%);
   color: var(--textColor);
   font-family: var(--bodyFont);
   font-weight: 400;
